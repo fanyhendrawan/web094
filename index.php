@@ -1,8 +1,9 @@
 <?php
-echo " $host = "localhost";
-$user        = "root";
-$pass        = "";
-$db          = "list kegiatan gde fany";
+echo 
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "list kegiatan gde fany";
 
 $koneksi    = mysqli_connect($host, $user, $pass, $db);
 if (!$koneksi) { //cek koneksi
@@ -210,4 +211,4 @@ if (isset($_POST['simpan'])) { //untuk create
     </div>
 </body>
 
-</html";
+</html>
