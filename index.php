@@ -1,5 +1,5 @@
 <?php
-echo "
+echo 
 $host = "localhost";
 $user = "root";
 $pass = "";
@@ -211,4 +211,4 @@ if (isset($_POST['simpan'])) { //untuk create
     </div>
 </body>
 
-</html>";
+</html>
